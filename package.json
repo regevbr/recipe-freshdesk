@@ -1,0 +1,17 @@
+{
+  "name": "Freshdesk",
+  "id": "freshdesk",
+  "version": "1.0.0",
+  "description": "Freshdesk",
+  "main": "index.js",
+  "author": "Regev Brody<regevbr@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/regevbr/recipe-freshdesk",
+  "config": {
+    "serviceURL": "https://{teamId}.freshdesk.com/helpdesk/tickets",
+    "hasTeamId": true,
+    "hasNotificationSound": true,
+    "urlInputSuffix": ".freshdesk.com",
+    "message": "Freshdesk team name"
+  }
+}
